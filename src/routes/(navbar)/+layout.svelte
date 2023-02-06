@@ -1,5 +1,5 @@
 <script lang="ts">
-    const navbar: string[] = ["Home", "Projects", "About"]
+    const navbar: string[] = ["Home", "Dashboard", "Projects", "About"]
 </script>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
@@ -16,7 +16,7 @@
         <!-- Navbar -->
         <div class="w-full h-full m-auto flex justify-center font-semibold">
             {#each navbar as nav}
-            <h1 class="my-auto px-10"><a href={nav === "Home" ? "/" : nav}>{nav}</a></h1>
+            <h1 class="my-auto px-10"><a href={nav.toLowerCase() === "home" ? "/" : nav.toLowerCase()}>{nav}</a></h1>
             {/each}
         </div>
     </div>
