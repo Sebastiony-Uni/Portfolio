@@ -1,4 +1,4 @@
 <!-- Container -->
-<div class="w-screen h-screen bg-primary ">
+<div class="w-full h-full bg-primary ">
     HELLO
 </div>
