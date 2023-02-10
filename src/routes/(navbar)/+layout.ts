@@ -1,6 +1,6 @@
-import type { PageLoad } from './$types';
+import type { LayoutLoad } from './$types';
 
-export const load: PageLoad = async ({url}) => {
+export const load: LayoutLoad = async ({url}) => {
     return {
         currentPath: url.pathname
     }

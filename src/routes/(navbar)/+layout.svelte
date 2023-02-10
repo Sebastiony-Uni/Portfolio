@@ -1,12 +1,9 @@
 <script lang="ts">
-  import { goto } from "$app/navigation";
-
-
+    import type { LayoutData } from './$types';
+    import { goto } from "$app/navigation";
     const navbar: string[] = ["Home", "Dashboard", "Projects", "About"]
-    type PageData = {
-        currentPath: string,
-    }
-    export let data: PageData;
+
+    export let data: LayoutData;
 
     $: ({currentPath} = data);
 
