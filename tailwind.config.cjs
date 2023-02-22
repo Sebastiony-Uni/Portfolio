@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        "default": "url('/src/images/background.svg')",
-        "mac": "url('/src/images/macbackground.svg')",
+        "default": "url('/src/lib/images/background.svg')",
+        "mac": "url('/src/lib/images/macbackground.svg')",
       }),
       colors: {
         "primary": '#413CCA',
