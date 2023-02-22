@@ -1,5 +1,5 @@
 <script>
-    import linkedin from '$lib/images/linkedin.svg';
+    import linkedin from '$lib/images/linkedIn.svg';
     import github from '$lib/images/github.svg';
 </script>
 
